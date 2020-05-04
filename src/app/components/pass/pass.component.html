@@ -1,0 +1,10 @@
+
+<div class="form-style-6">
+    <h1>This is a Secured Page</h1>
+    <h2>Enter your Credentials</h2>
+    <form>
+        <input type="text" name="title" [(ngModel)]="input.title" placeholder="Email Here" /><br />
+        <textarea name="content" [(ngModel)]="input.content" placeholder="Password here"></textarea>
+        <a type="submit" (click)="save()" href="/profile">Save The Password</a>
+    </form>
+</div>

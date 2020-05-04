@@ -1,0 +1,85 @@
+
+<div class="jumbotron text-center">
+  <h1>Just One Password</h1>
+  <p>Yes, This is all it takes to be free from a thousand passwords to remember!</p> 
+</div>
+
+<div class="container">
+    <div class="logo">Create a new account!</div>
+    <br><br>
+    <div class="register-item">
+      <form #myform="ngForm" (ngSubmit)="register(myform)" class="form form-register">
+
+        <div class="form-field form-group">
+              <label class="user" for="register-username"><span class="hidden">Name</span></label>
+              <input name="name" id="register-username" type="text" class="form-input form-control" placeholder="Name" ngModel >
+        </div>
+        <div class="form-field form-group">
+          <label class="user" for="register-email"><span class="hidden">Email</span></label>
+          <input name="email" id="register-email" type="email" class="form-input form-control" placeholder="Email" ngModel >
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-field form-group">
+            <label class="user" for="register-username1"><span class="hidden">UserName</span></label>
+            <input name="username" id="register-username1" type="text" class="form-input form-control" placeholder="UserName" ngModel >
+        </div>
+        <div class="form-field form-group">
+          <label class="lock" for="register-password"><span class="hidden">Password</span></label>
+          <input name="password" id="register-password" type="password" class="form-input form-control" placeholder="Password" ngModel >
+        </div>
+        <button type="submit" class="form-field btn btn-primary" value="Register">Submit</button>
+      </form>
+    </div>
+</div>
+<br>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+<div class="container">
+	<div class="row">
+	    <br/>
+	   <div class="col text-center">
+		<h2>Trust Unlimited</h2>
+		<p>We're The Number One</p>
+		</div>
+		
+             
+		
+	</div>
+		<div class="row text-center">
+	        <div class="col">
+	        <div class="counter">
+      <i class="fa fa-code fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="100" data-speed="1500"></h2>
+       <p class="count-text ">Encrypted Always</p>
+    </div>
+	        </div>
+              <div class="col">
+               <div class="counter">
+      <i class="fa fa-coffee fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="1700" data-speed="1500"></h2>
+      <p class="count-text ">Happy Clients</p>
+    </div>
+              </div>
+              <div class="col">
+                  <div class="counter">
+      <i class="fa fa-lightbulb-o fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="11900" data-speed="1500"></h2>
+      <p class="count-text ">Thousands of passwords</p>
+    </div></div>
+              <div class="col">
+              <div class="counter">
+      <i class="fa fa-bug fa-2x"></i>
+      <h2 class="timer count-title count-number" data-to="157" data-speed="1500"></h2>
+      <p class="count-text ">Free Coffee With Clients</p>
+    </div>
+              </div>
+         </div>
+</div>
+
+

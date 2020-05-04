@@ -1,0 +1,16 @@
+
+<div style="text-align:center; color: #000000; font: arial, sans-serif; font-weight: bold"><h1>Passwords Listed By You</h1></div>  
+<div class="wrapper">
+	<div class="divider div-transparent"></div>
+</div>
+
+<div style="text-align:center; color: #000000; font: arial, sans-serif; font-weight: bold"><h2>Add New Passwords to the List</h2></div>  <br><br>
+
+<div style="text-align:center">
+    <button class="button-success pure-button" (click)="create()">New Password</button>
+</div>
+
+<span *ngFor="let entry of arr">
+    <h2>{{ entry.title }}</h2>
+    <p>{{ entry.content }}</p>
+</span>
